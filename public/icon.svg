@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B7A56" />
+      <stop offset="100%" stop-color="#155D42" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad)" />
+  <g fill="#ffffff" transform="translate(64, 64) scale(0.75)">
+    <!-- Central Paw Pad -->
+    <ellipse cx="256" cy="310" rx="95" ry="80" />
+    <!-- Toe Pads -->
+    <ellipse cx="140" cy="180" rx="42" ry="55" transform="rotate(-15 140 180)" />
+    <ellipse cx="220" cy="130" rx="40" ry="55" transform="rotate(-5 220 130)" />
+    <ellipse cx="292" cy="130" rx="40" ry="55" transform="rotate(5 292 130)" />
+    <ellipse cx="372" cy="180" rx="42" ry="55" transform="rotate(15 372 180)" />
+    <!-- Heart accent in center of pad -->
+    <path d="M256 345 C256 345, 230 325, 230 305 A18 18 0 0 1 256 295 A18 18 0 0 1 282 305 C282 325, 256 345, 256 345 Z" fill="#1B7A56" opacity="0.3" />
+  </g>
+</svg>
+

@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 150 14% 98%; /* #F8FAF9 */
+    --foreground: 160 20% 12%; /* #182620 */
+
+    --card: 0 0% 100%; /* #FFFFFF */
+    --card-foreground: 160 20% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 160 20% 12%;
+
+    --primary: 157 64% 29%; /* #1B7A56 (Verde Esmeralda CuidaPet) */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 152 40% 94%; /* #E8F5EF */
+    --secondary-foreground: 157 64% 24%;
+
+    --muted: 150 10% 93%;
+    --muted-foreground: 155 10% 45%;
+
+    --accent: 152 35% 92%;
+    --accent-foreground: 157 64% 24%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 150 12% 90%;
+    --input: 150 12% 90%;
+    --ring: 157 64% 29%;
+
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-emerald-100 selection:text-emerald-900;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom scrollbar for mobile clean look */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(27, 122, 86, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(27, 122, 86, 0.4);
+}
+
