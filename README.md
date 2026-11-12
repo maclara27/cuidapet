@@ -46,33 +46,6 @@ CuidaPet/
         └── index.ts                # Tipagens TypeScript para pets, vacinas e nutrição
 ```
 
-## Configuração do Supabase
-
-1. Abra o painel do seu projeto no [Supabase](https://supabase.com).
-2. Vá em **SQL Editor** no menu lateral esquerdo.
-3. Copie todo o conteúdo do arquivo [`schema.sql`](file:///c:/Users/maria/OneDrive/Desktop/dev%20maria/CuidaPet/schema.sql) e clique em **Run**.
-   - Cria as tabelas `public.pets` e `public.vaccines`
-   - Configura as políticas de segurança (RLS - Row Level Security)
-   - Cria e configura o bucket público `pet-avatars` para upload de fotos
-
-## Configuração das Variáveis de Ambiente
-
-Crie um arquivo `.env.local` na raiz do projeto com base no `.env.example`:
-
-```env
-NEXT_PUBLIC_SUPABASE_URL=https://seu-projeto.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=sua-chave-anon-aqui
-GEMINI_API_KEY=sua-chave-gemini-aqui
-```
-
-## Como Executar
-
-```bash
-# Rodar em modo de desenvolvimento
-npm run dev
-
-# Gerar build de produção
-npm run build
 
 # Iniciar servidor de produção
 npm start
