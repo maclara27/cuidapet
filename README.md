@@ -8,4 +8,4 @@ Aplicativo mobile-first (PWA) de cuidado, saúde e assistência para tutores de 
 - **Framework:** Next.js 15 (App Router)
 - **Estilização e UI:** Tailwind CSS, ShadCN UI, Lucide React
 - **Backend & Auth:** Supabase (PostgreSQL, Supabase Auth e Storage para avatares de pets)
-- **Inteligência Artificial:** Google Gemini 3.8 Flash via `@google/genai` (Route Handler `/api/chat`)
+- **Inteligência Artificial:** Google Gemini 3.8 Flash 
