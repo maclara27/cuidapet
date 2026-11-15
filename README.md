@@ -35,7 +35,7 @@ O **CuidaPet** reúne em um só aplicativo o cadastro dos pets, a carteira de va
 
 > As respostas da IA servem como apoio e **não substituem a consulta com um médico-veterinário**.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 | Camada | Tecnologias |
 | --- | --- |
@@ -45,7 +45,7 @@ O **CuidaPet** reúne em um só aplicativo o cadastro dos pets, a carteira de va
 | Banco, autenticação e arquivos | Supabase (PostgreSQL, Supabase Auth e Storage) |
 | Inteligência artificial | Google Gemini API |
 
-## 👩‍💻 Autora
+## Autora
 
 **Maria Clara**
 [LinkedIn](https://www.linkedin.com/in/maria-clara-mf/) · [GitHub](https://github.com/maclara27)
