@@ -45,8 +45,6 @@ O **CuidaPet** reúne em um só aplicativo o cadastro dos pets, a carteira de va
 | Banco, autenticação e arquivos | Supabase (PostgreSQL, Supabase Auth e Storage) |
 | Inteligência artificial | Google Gemini API |
 
----
-
 ## 👩‍💻 Autora
 
 **Maria Clara**
